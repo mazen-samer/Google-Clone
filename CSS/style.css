@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+body{
+    background-color: #202124;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #38393d;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+a:hover{
+    margin: 9px;
+    border: white 1px solid;
+}
+
+.links{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+}
+
+.form{
+    height: 220px;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+form, .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form img{
+    width: 300px;
+    color: white;
+}
+
+form .logo-input{
+    padding-left: 50px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 550px;
+    background-color: #202124;
+    border: grey 1px solid;
+    border-radius: 50px;
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+form .logo-input:hover, form .logo-input:focus{
+    border: none;
+    outline: none;
+    background-color: #38393d;
+}
+
+input[type="submit"]{
+    background-color: #38393d;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    margin: -1px;
+    border: white 1px solid;
+}
